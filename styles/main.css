@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
+/*cores 
+rosa= #F50086 
+azul= #D4DDED 
+rosa claro= #F1C9E8 */
+
+:root {
+  background-color: #f1c9e8;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.pink-color {
+  color: #f50086;
+}
+
+.container {
+  width: 80%;
+  max-width:650px ;
+  height: 70vh;
+  background-color: #fff;
+  border-radius: 12px;
+  margin: auto;
+  margin-top: 5%;
+  -webkit-box-shadow: 6px 5px 15px 5px rgba(101, 101, 101, 0.51);
+  box-shadow: 6px 5px 15px 5px rgba(101, 101, 101, 0.51);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.logo > img{
+    height: 70px;;
+}
+
+.fields {
+padding-top: 20px;
+  margin: 5% 10%;
+}
+
+.fields__title {
+  display: flex;
+  justify-content: center;
+}
+
+#field__title {
+  font-size: 11pt;
+  font-weight: 900;
+  color: rgb(70, 69, 69);
+  margin-bottom: 7%;
+}
+
+.field__inputs {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.field__inputs > input {
+  height: 45px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+
+.fields__remember {
+  margin-bottom: 5%;
+}
+
+#field__remember{
+    border-radius: 50;
+}
+
+#btnLogin {
+    cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff;
+  width: 100%;
+  border: none;
+  background-color: #f50086;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+
+.fields__recovery > a,
+.fields__create > a {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+}
+
+.fields__recovery > a {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 30px;
+}
+
+.fields__create {
+
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  font-size: 13pt;
+  font-weight: 600
+}
